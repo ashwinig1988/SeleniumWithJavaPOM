@@ -1,0 +1,8 @@
+00:14:55.590 [main] INFO  resources.Base - Initialized web driver
+00:15:22.724 [main] INFO  resources.Base - Navigated to home page
+00:15:23.240 [main] INFO  resources.Base - successfully click on signin button
+00:16:35.133 [main] INFO  resources.Base - Successfully validated Text message
+00:16:35.572 [main] INFO  resources.Base - click on Nav Bar Option
+00:16:35.739 [main] INFO  resources.Base - click Data Option
+00:16:35.989 [main] INFO  resources.Base - Click on My Library 
+00:16:35.989 [main] INFO  resources.Base - click on PlayList Option

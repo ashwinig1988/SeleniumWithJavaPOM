@@ -4,27 +4,15 @@
   <listeners>
     <listener class-name="resources.Listeners"/>
   </listeners>
-  <test parallel="none" name="Home Page(failed)">
+  <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="PacktTask.PacktTask.LandingPageTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- PacktTask.PacktTask.LandingPageTest -->
       <class name="PacktTask.PacktTask.HomePageTest">
         <methods>
           <include name="teardown"/>
           <include name="initialize"/>
-          <include name="checkOptionForMainMenu"/>
+          <include name="checkNavBarcolor"/>
         </methods>
       </class> <!-- PacktTask.PacktTask.HomePageTest -->
-      <class name="PacktTask.PacktTask.LoginPageTest">
-        <methods>
-          <include name="initialize"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- PacktTask.PacktTask.LoginPageTest -->
     </classes>
-  </test> <!-- Home Page(failed) -->
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

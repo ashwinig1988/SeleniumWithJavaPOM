@@ -28,6 +28,7 @@ public class HomePage {
 	By crousal=By.xpath("//div[@class='main-card-header card-header']");
 	By show=By.xpath("//div[@class='collapse show']");
 	
+	By navBarColor=By.xpath("//nav[@id='primary-navigation']");
 	
 	public HomePage(WebDriver driver)
 	{
@@ -108,5 +109,9 @@ public class HomePage {
 	public WebElement shadow()
 	{
 		return  driver.findElement(show);
+	}
+	public WebElement getNavBar()
+	{
+		return  driver.findElement(navBarColor);
 	}
 }

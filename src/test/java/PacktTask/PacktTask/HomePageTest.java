@@ -1,5 +1,6 @@
 package PacktTask.PacktTask;
 
+import org.openqa.selenium.support.Color;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
@@ -71,7 +72,37 @@ public class HomePageTest extends Base{
 		homePage.getSearch().sendKeys("Java");
 		homePage.clickSearch().click();
 	}*/
+	@Test(priority=3)
+	public void checkNavBarcolor()
+	{
+		WebElement n=homePage.getNavBar();
+		//obtain color in rgba
+		 //String propertyName;
+		String s = n.getCssValue("background-color");
+		//get the actual color of navigation bar
+		 String actual = Color.fromString(s).asHex();
+		 //assign expected color 
+		 String expected="#3c3c3b";
+		 //compare the navigation bar background color
+		 Assert.assertEquals(actual, expected,"Color Matched");
+	     
+	}
 	@Test(priority=4)
+	public void checkNavBarHeight()
+	{
+		WebElement navBar=homePage.getNavBar();
+		//Get width of element.
+        int ImageWidth = navBar.getSize().getWidth();
+       // System.out.println("Image width Is "+ImageWidth+" pixels");
+
+        //Get height of element.
+        int actual = navBar.getSize().getHeight(); 
+        int expected=75;
+        Assert.assertEquals(actual, expected,"Nav bar height Matched");
+       // System.out.println("Image height Is "+ImageHeight+" pixels");
+		
+	}
+	@Test(priority=5)
 	public void checkOptionForMainMenu() throws InterruptedException
 	{
 		List<WebElement> menu=homePage.getMainOption();
@@ -105,7 +136,7 @@ public class HomePageTest extends Base{
 	}
 	
 	
-	@Test(priority=5)
+	@Test(priority=6)
 	public void viewAllBooks()
 	{
 		List<WebElement> menu=homePage.getMainOption();
@@ -136,7 +167,7 @@ public class HomePageTest extends Base{
 	}
 		
 	
-	@Test(priority=6)
+	@Test(priority=7)
 	public void checkCarouselclick()
 	{
 		List<WebElement> c=homePage.clickCorousel();
