@@ -11,8 +11,8 @@ Prerequisite
 
 Instructions and commands to run your code 
 1. Download project .
-2.Goto the inside project (Example : C:\PacktTask)
-3. Type cmd - It will open command promt 
+2. Goto the inside project folder  (Example : C:\packt-master).
+3. Type cmd in navigation bar.It will open command promt 
 4. First give  mvn compile  command on command promt.
 5. Then give  mvn test  command on command promt to run test cases.
 
