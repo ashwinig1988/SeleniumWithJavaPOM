@@ -1,0 +1,8 @@
+13:43:10.709 [main] INFO  resources.Base - Successfully validated Text message
+13:43:11.017 [main] INFO  resources.Base - click on Nav Bar Option
+13:43:11.123 [main] INFO  resources.Base - click Data Option
+13:43:11.325 [main] INFO  resources.Base - Click on My Library 
+13:43:11.325 [main] INFO  resources.Base - click on PlayList Option
+13:43:11.729 [main] INFO  resources.Base - Get View all Books
+13:45:03.541 [main] INFO  resources.Base - Initialized web driver
+13:45:14.594 [main] INFO  resources.Base - Navigated to home page

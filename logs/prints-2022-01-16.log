@@ -1,0 +1,8 @@
+23:50:11.768 [main] INFO  resources.Base - click on PlayList Option
+23:58:26.920 [main] INFO  resources.Base - Initialized web driver
+23:58:43.079 [main] INFO  resources.Base - Navigated to home page
+23:58:43.347 [main] INFO  resources.Base - successfully click on signin button
+23:59:17.298 [main] INFO  resources.Base - Get View all Books
+23:59:17.351 [main] INFO  resources.Base - click on Nav Bar Option
+23:59:18.484 [main] INFO  resources.Base - click Data Option
+23:59:18.796 [main] INFO  resources.Base - Click on My Library 

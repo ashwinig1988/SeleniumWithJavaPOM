@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60525" started-at="2022-01-16T21:33:21Z" finished-at="2022-01-16T21:34:22Z">
+    <groups>
+    </groups>
+    <test name="Landing Page" duration-ms="21758" started-at="2022-01-16T21:33:21Z" finished-at="2022-01-16T21:33:43Z">
+      <class name="PacktTask.PacktTask.LandingPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PacktTask.PacktTask.LandingPageTest@c05fddc]" name="initialize" is-config="true" duration-ms="20648" started-at="2022-01-17T01:33:21Z" finished-at="2022-01-17T01:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="verifySignClick()[pri:0, instance:PacktTask.PacktTask.LandingPageTest@c05fddc]" name="verifySignClick" duration-ms="249" started-at="2022-01-17T01:33:42Z" finished-at="2022-01-17T01:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignClick -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PacktTask.PacktTask.LandingPageTest@c05fddc]" name="teardown" is-config="true" duration-ms="801" started-at="2022-01-17T01:33:42Z" finished-at="2022-01-17T01:33:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PacktTask.PacktTask.LandingPageTest -->
+    </test> <!-- Landing Page -->
+    <test name="Login Page" duration-ms="10190" started-at="2022-01-16T21:33:44Z" finished-at="2022-01-16T21:33:54Z">
+      <class name="PacktTask.PacktTask.LoginPageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PacktTask.PacktTask.LoginPageTest@475c9c31]" name="initialize" is-config="true" duration-ms="8881" started-at="2022-01-17T01:33:44Z" finished-at="2022-01-17T01:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:PacktTask.PacktTask.LoginPageTest@475c9c31]" name="login" duration-ms="573" started-at="2022-01-17T01:33:52Z" finished-at="2022-01-17T01:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PacktTask.PacktTask.LoginPageTest@475c9c31]" name="teardown" is-config="true" duration-ms="736" started-at="2022-01-17T01:33:53Z" finished-at="2022-01-17T01:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PacktTask.PacktTask.LoginPageTest -->
+    </test> <!-- Login Page -->
+    <test name="Home Page" duration-ms="27896" started-at="2022-01-16T21:33:54Z" finished-at="2022-01-16T21:34:22Z">
+      <class name="PacktTask.PacktTask.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="initialize" is-config="true" duration-ms="8056" started-at="2022-01-17T01:33:54Z" finished-at="2022-01-17T01:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="viewAllBooks()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="viewAllBooks" duration-ms="14742" started-at="2022-01-17T01:34:02Z" finished-at="2022-01-17T01:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewAllBooks -->
+        <test-method status="PASS" signature="checkOptionForMainMenu()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="checkOptionForMainMenu" duration-ms="3384" started-at="2022-01-17T01:34:17Z" finished-at="2022-01-17T01:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOptionForMainMenu -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="validateAppTitle" duration-ms="70" started-at="2022-01-17T01:34:20Z" finished-at="2022-01-17T01:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="checkLogo()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="checkLogo" duration-ms="112" started-at="2022-01-17T01:34:20Z" finished-at="2022-01-17T01:34:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogo -->
+        <test-method status="PASS" signature="clickSearch()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="clickSearch" duration-ms="744" started-at="2022-01-17T01:34:20Z" finished-at="2022-01-17T01:34:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:PacktTask.PacktTask.HomePageTest@4dc27487]" name="teardown" is-config="true" duration-ms="785" started-at="2022-01-17T01:34:21Z" finished-at="2022-01-17T01:34:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PacktTask.PacktTask.HomePageTest -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>
