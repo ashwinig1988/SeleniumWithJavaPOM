@@ -13,9 +13,15 @@ Instructions and commands to run your code 
 1. Download project .
 2. Goto the inside project folder  (Example : C:\packt-master).
 3. Type cmd in navigation bar.It will open command promt 
-4. First give  mvn compile  command on command promt.
-5. Then give  mvn test  command on command promt to run test cases.
+5. Give mvn test  command on command promt to run test cases.
 
  Reporting -
 - To check the automation result , open the folder reports/index.html on browser   
 - This extent report page (reports\index.html)  will give the complete overview of automation result.
+
+Reasons to use selenium as a automation tool.
+- its a open source tool.
+- It supports many language like java,pythyon etc.
+- It support different browsers and platforms .
+- If we faced any issue, then communities are available to support us .
+
